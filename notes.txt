@@ -1,0 +1,43 @@
+<!--Later use for search functionality-->
+                <!--
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>-->
+
+The above will be used when we integrate Elasticsearch to the site
+
+The product dropdown:
+<!--Later use when we want to highlight our best sellers-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+            
+Using a Bootstrap navbar dropdown to highlight specific products, such as featuring popular items, is a great idea to draw attention to key products and encourage sales. Here's how you can implement it effectively:
+
+1. **Labeling**: Label the dropdown appropriately, such as "Featured Products" or "Popular Items," to indicate to users that these are special selections.
+
+2. **Product Showcase**: Include high-quality images, brief descriptions, and possibly discounted prices of the selected products within the dropdown menu. This gives users a glimpse of the featured items and entices them to explore further.
+
+3. **Limited Selection**: Limit the number of products displayed in the dropdown to a manageable amount, ideally around 3 to 5 items. This prevents overwhelming users with too many choices and keeps the focus on the highlighted products.
+
+4. **Variety**: Ensure that the featured products represent a diverse range of categories or types to cater to different user preferences. This increases the chances of capturing the interest of a broader audience.
+
+5. **Call to Action**: Include clear calls to action (CTAs) such as "Shop Now" or "View Details" buttons alongside each featured product. These CTAs prompt users to take action and explore the products further.
+
+6. **Regular Updates**: Periodically update the featured products to keep the content fresh and relevant. This encourages repeat visits from users who may be curious about new additions to the featured selection.
+
+By using a Bootstrap navbar dropdown to highlight specific products, you can effectively showcase popular items, drive traffic to key product pages, and potentially increase sales and conversions on your ecommerce store.
+
+Margins:
+<ul class="navbar-nav me-auto mb-2 mb-lg-0"> is towards the left
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0"> is towards the right of the viewer's screen
+
