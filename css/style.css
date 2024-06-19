@@ -40,3 +40,13 @@ p {
 .text-primary {
     color: #257dfd;
 }
+
+.ionicons {
+    height: 32px;
+    width: 32px;
+    margin-bottom: 16px;
+    color: #0a58ca;
+    background-color: #f2f2f2;
+    padding: 6px;
+}
+
