@@ -33,10 +33,10 @@
               <a class="nav-link active fs-6" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-6" href="#">About</a>
+              <a class="nav-link fs-6" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-6" href="#">Products</a>
+              <a class="nav-link fs-6" href="#products">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fs-6 btn btn-primary text-white px-4 py-2 ms-2" href="#">Sign In</a>
@@ -83,20 +83,32 @@
   </header>
 
   <!--About Section-->
-  <section class="container py-5 mt-5">
+  <section class="container py-5 mt-5" id="about">
     <div class="row">
       <div class="col-12 col-lg-6">
-        <img class="img-fluid ms-auto d-block" src="assets/img-1.webp" alt="">
+        <img class="img-fluid mx-auto d-block" src="assets/img-1.webp" alt="">
       </div>
       <div class="col-12 col-lg-6">
-        <h2 class="text-primary fs-1 fw-bold mb-3">About Sonic Shield</h2>
-        <p>Sonic Shield is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ducimus natus nihil quas qui
-          dolore sed velit consequuntur nulla dolorem facilis accusantium iste, fuga voluptas deleniti asperiores vitae
-          doloremque itaque!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quasi obcaecati perspiciatis hic fugiat
-          dignissimos recusandae nulla excepturi deleniti minus, aut sit repellendus quibusdam unde praesentium? Alias
-          nulla in ullam neque, est dolorum nostrum libero blanditiis minus odio laudantium ut?</p>
-        <button class="btn btn-primary px-5 py-2 d-inline-block fs-5 mt-3 fw-bold">Read More</button>
+        <div class="text-center text-md-start">
+          <h2 class="text-primary fs-1 fw-bold mb-3  pt-3">About Sonic Shield</h2>
+          <p>Sonic Shield is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ducimus natus nihil quas qui
+            dolore sed velit consequuntur nulla dolorem facilis accusantium iste, fuga voluptas deleniti asperiores
+            vitae
+            doloremque itaque!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quasi obcaecati perspiciatis hic fugiat
+            dignissimos recusandae nulla excepturi deleniti minus, aut sit repellendus quibusdam unde praesentium? Alias
+            nulla in ullam neque, est dolorum nostrum libero blanditiis minus odio laudantium ut?</p>
+          <button class="btn btn-primary px-5 py-2 d-inline-block fs-5 mt-3 fw-bold">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FAQ Attack-->
+  <section class="container py-5 my-3">
+    <div class="row">
+      <div class="col-12">
+
       </div>
     </div>
   </section>
@@ -137,7 +149,7 @@
   </section>
 
   <!--Our Products-->
-  <div class="container my-5">
+  <div class="container my-5" id="products">
     <div class="row align-items-center justify-content-center">
       <div class="col-12">
         <h2 class="fs-1 fw-bold text-primary text-center pb-5">
@@ -145,20 +157,20 @@
         </h2>
         <ul class="nav nav-tabs d-flex flx-wrap justify-content-center" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active me-md-3 me-1 text-dark" id="home-tab" data-bs-toggle="tab"
+            <button class="nav-link active fs-5 me-2 me-md-4" id="home-tab" data-bs-toggle="tab"
               data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
               aria-selected="true">
               All
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link me-md-3 me-1 text-dark" id="vr" data-bs-toggle="tab" data-bs-target="#vr-tab-pane"
+            <button class="nav-link fs-5 me-2 me-md-4" id="vr" data-bs-toggle="tab" data-bs-target="#vr-tab-pane"
               type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
               Virtual Reality
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link me-md-3 me-1 text-dark" id="headphones-tab" data-bs-toggle="tab"
+            <button class="nav-link fs-5 me-2 me-md-4" id="headphones-tab" data-bs-toggle="tab"
               data-bs-target="#headphones-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
               aria-selected="false">
               Headphones
@@ -170,13 +182,13 @@
             tabindex="0">
             <div class="row g-4 mt-5 justify-content-center align-items-center">
               <div class="col-12 col-md-4">
-                <img src="assets/headphones-1.webp" alt="" class="img-fluid  d-block mx-auto" />
+                <img src="assets/headphones-1.webp" alt="" class="img-fluid d-block mx-auto" />
               </div>
               <div class="col-12 col-md-4">
-                <img src="assets/vr-1.webp" alt="" class="img-fluid  d-block mx-auto" />
+                <img src="assets/vr-1.webp" alt="" class="img-fluid d-block mx-auto" />
               </div>
               <div class="col-12 col-md-4">
-                <img src="assets/vr-2.webp" alt="" class="img-fluid  d-block mx-auto" />
+                <img src="assets/vr-2.webp" alt="" class="img-fluid d-block mx-auto" />
               </div>
             </div>
           </div>
@@ -203,7 +215,100 @@
     </div>
   </div>
 
-  <!---->
+  <!--FAQ Attack-->
+  <div class="container py-5 mb-5">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="fw-bold text-primary fs-1 pb-3 text-center">
+          FAQs
+        </h2>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fs-3 text-dark fw-medium" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                How can I browse and explore products on this website?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="lead">
+                  Ordering your favorite tech gear from Sonic Shield is a
+                  breeze. Once you've found the perfect product, simply add it
+                  to your cart and proceed to checkout. Our secure and
+                  efficient checkout process allows you to review your order,
+                  enter shipping details, and choose from multiple payment
+                  options. Rest assured, your transaction is protected, and
+                  your order will be swiftly processed.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fs-3 text-dark fw-medium" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                What is the ordering process like?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="lead">
+                  Ordering your distraction-free tech gear from Sonic Shield is a
+                  breeze. Once you've found the perfect product, simply add it
+                  to your cart and proceed to checkout. Our secure and
+                  efficient checkout process allows you to review your order,
+                  enter shipping details, and choose from multiple payment
+                  options. Rest assured, your transaction is protected, and
+                  your order will be swiftly processed.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fs-3 text-dark fw-medium" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                How does Sonic Shield ensure customer satisfaction?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="lead">
+                  At Sonic Shield, customer satisfaction is our top priority.
+                  We are committed to delivering high-quality products and
+                  exceptional service. Our team carefully inspects and
+                  packages each order, ensuring it reaches you in perfect
+                  condition. Additionally, our responsive customer support is
+                  ready to assist with any inquiries or concerns you may have.
+                  Join our community of satisfied customers who trust Sonic Shield for a seamless and enjoyable shopping
+                  experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="blue-bg footer-section">
+    <p class="text-center py-5 mb-0">
+      &copy; 2024 Sonic Shield | All rights reserved.
+    </p>
+    <!--Social media icons-->
+    <!--<p class="text-center">
+      FB 
+      IG 
+      TikTok
+      Pinterest
+      LinkedIn
+    </p>-->
+  </footer>
 
 
   <!--Bootstrap Scripts-->
